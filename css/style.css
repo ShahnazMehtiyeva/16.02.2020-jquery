@@ -1,0 +1,39 @@
+.container{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div{
+    width: 199px;
+    height: 199px;
+    border: 1px solid black;
+    background-repeat:no-repeat;
+    background-size:contain;
+
+}
+
+table,td,th{
+    border: 1px solid black;
+}
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.651);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.content{
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+
+.active{
+    display: block;
+}
